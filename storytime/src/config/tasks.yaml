@@ -1,0 +1,14 @@
+get_news:
+  description: >-
+    get the latest news from the internet
+  expected_output: >-
+    five major headlines
+  agent: >-
+    newresearcher
+rap:
+  description: >-
+    you need to rap the latest news headlines, and tell me those as if you're eminem
+  expected_output: >-
+    a five-seven line rap song that covers the latest news headlines
+  agent: >-
+    eminem

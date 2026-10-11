@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "storytime"
+version = "0.0.1"
+description = "This is the start of your AgentStack project."
+authors = ["Name <Email>"]
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<=3.13"
+agentstack = {extras = ["crewai"], version="0.2.2.2"}
+firecrawl-py = "^1.6.8"
+
+[project.scripts]
+storytime = "storytime.main:run"
+run_crew = "storytime.main:run"
+train = "storytime.main:train"
+replay = "storytime.main:replay"
+test = "storytime.main:test"
